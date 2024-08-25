@@ -1,0 +1,364 @@
+.background{
+    margin-top: 5px;
+    padding-top: 80px;
+    margin-left: 80px;
+}
+.header{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:2px solid;
+    border-bottom-color: #e8e7e7;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top:0px;
+    background-color: white;
+    z-index: 1;
+    
+}    
+.header-image{
+    width: 80px;
+    height: 50px;
+    justify-content: center;
+}
+.menu-bar{
+    width:40px;
+    height: 25px;
+   margin-top: 12px;
+   margin-left: 2px;
+   margin-right: 10px;
+   cursor: pointer;
+}
+.camera{
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.notification{
+    width: 30px;
+    height: 20px;
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+}
+.mic {
+    width: 20px;
+    height: 26px;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    background-color: rgb(235, 231, 231);
+    padding:10px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+.mic:hover{
+    background-color: rgb(171, 168, 168);
+}
+.mic:active{
+    background-color: rgb(171, 168, 168);
+}
+.profile-left{
+    height: 36px;
+    width: 26;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.fa-solid{
+    justify-content: center;
+    align-items: center;
+}
+.left-section{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    margin-right: 10px;
+   
+    padding-left: 20px;
+}
+.middle-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+    
+    
+}
+.right-section{
+    width: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-shrink: 0;
+}
+.search{
+    max-width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    border-radius: 30px 0 0 30px;
+    border: 1px solid #ccc;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.search-icon{
+    display: flex;
+    margin-top: 6px;
+    height: 21.5px;
+    justify-content: middle;
+    align-items: middle;
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 0 26px 26px 0;
+}
+.side-bar{
+    position: fixed;
+    top:60px;
+    background-color: rgb(255, 252, 252);
+    bottom: 0px;
+    left: 0px;
+    width:60px;
+    padding-left: 10px;
+    z-index: 200;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(237.36px, 1fr));
+    column-gap: 20px;
+    row-gap: 40px;
+    background-color: #f7f2f2;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.video{
+    display:block;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.thumbnailpic{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+   
+}
+.profilepic{
+    width: 36px;
+    height: 36px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.info{
+    margin: 0px 0px;
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    width: 100%;
+   margin: 0px 0px;
+}
+.authorname{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 100%;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    padding-top: -50px;
+}
+.views{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    padding-top: -100px;
+}
+.belowthumbnail{
+       display: grid;
+       grid-template-columns: 50px 1fr;
+}
+.duration{
+    position: absolute;
+    color: white;
+    background-color: rgba(30, 27, 27,0.6);
+    width: fit-content;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    right:10px;
+    bottom:10px;
+    
+   
+    
+}
+.thumbnail{
+    position: relative;
+   
+}
+.notificationdiv{
+    position: relative;
+}
+.noticount{
+    position:absolute;
+    background-color: rgb(199, 0, 0);
+    color: white;
+    font-size: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 8px;
+    bottom:12px;
+    left:15px;
+    box-shadow: 2px 2px 1px white;
+    cursor: pointer;
+
+}
+.Home-icon-div{
+    width: 30px;
+    height: 30px;
+    
+    margin-left: 5px;
+}
+.Home-icon{
+    width:20px;
+    height: 30px;
+}
+.Home{
+    margin-top:10px;
+    margin-left: 5px;
+    border-radius: 8px;
+    
+    height:50px;
+    width: 40px;
+    background-color: #ffffff;
+   transition: background-color 0.15s;
+}
+.Home:hover{
+    background-color: #e2e1e1;
+    cursor: pointer;
+    
+}
+.Home-text{
+    font-size: 9px;
+    margin-left:5px;
+    top:12px;
+    left:15px;
+   
+    width: 25px;
+
+}
+
+.Shorts{
+    margin-top:10px;
+    margin-left: 5px;
+    border-radius: 8px;
+   
+    height:50px;
+    width: 40px;
+
+}
+.Shorts-icon-div{
+    width: 30px;
+    height: 30px;
+    
+    margin-left: 5px;
+    
+    
+   
+   
+    
+   
+}
+.Shorts-text{
+    font-size: 9px;
+    margin-left:5px;
+    top:12px;
+    left:15px;
+   
+    width: 25px;
+   
+
+}
+.Subscription{
+    margin-top:10px;
+    margin-left: 5px;
+    border-radius: 8px;
+   
+    height:50px;
+    width: 40px;
+   
+
+}
+.subs-icon-div{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+  
+   
+}
+.Subs-text{
+    font-size: 9px;
+    margin-left:0px;
+    top:12px;
+    left:15px;
+    
+    width: 25px;
+    
+}
+.You{
+    margin-top:10px;
+    margin-left: 5px;
+    border-radius: 8px;
+  
+    height:50px;
+    width: 40px;
+   
+}
+.You:hover{
+    background-color: rgb(217, 217, 217);
+}
+.You-icon-div{
+    width: 30px;
+    height: 30px;
+    
+    margin-left: 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+
+}
+.You-text{
+    font-size: 9px;
+    margin-left:8px;
+    top:12px;
+    left:15px;
+    
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
